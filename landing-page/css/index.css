@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Oswald:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: rgb(88, 210, 208);
+    background: linear-gradient(180deg, rgba(88, 210, 208, 1) 0%, rgba(11, 59, 58, 1) 55%, rgba(61, 255, 0, 1) 100%);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    background: #222222;
+    color: #ffffff;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header img {
+    margin-left: 20%;
+}
+
+.alien-logo {
+    width: 300px;
+    max-width: 300px;
+    height: auto;
+}
+
+nav {
+    text-align: center;
+    padding-right: 45px;
+}
+
+nav a {
+    font-family: 'Edu NSW ACT Foundation', cursive, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 8px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid #3dff00;
+    background-color: rgba(11, 59, 58, 1);
+    color: #3dff00;
+    transition: all 0.3s ease 0s;
+}
+
+nav a:hover {
+    color: #c8ff00;
+    background-color: rgba(11, 59, 58, 0.7);
+    transition: all 0.3s ease 0s;
+    box-shadow: 1px 2px #c8ff00;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.background-headline {
+    width: 100%;
+    max-width: 100%;
+    background-color: #272727;
+    background-image: url(https://i.imgur.com/Pxmh3oC.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    color: #ffffff;
+    text-align: center;
+}
+
+.background-headline h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #3dff00;
+    padding: 150px 0 10px;
+    text-shadow: 3px 1px #47aba9;
+}
+
+.background-headline h3 {
+    font-family: 'Edu NSW ACT Foundation', cursive, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    color: #ffffff;
+    padding: 10px 0 40px;
+    text-shadow: 3px 1px #222222;
+}
+
+#email {
+    padding: 12px 110px;
+    background-color: #3dff00;
+    border-color: rgba(11, 59, 58, 1);
+}
+
+.submit {
+    font-size: 16px;
+    padding: 10px 25px;
+    background-color: rgba(11, 59, 58, 1);
+    color: #3dff00;
+    border-radius: 5px;
+    border: 2px solid #3dff00;
+    transition: all 0.3s ease 0s;
+}
+
+.submit:hover {
+    cursor: pointer;
+    color: #c8ff00;
+    background-color: rgba(11, 59, 58, 0.7);
+    transition: all 0.3s ease 0s;
+    box-shadow: 1px 2px #c8ff00;
+}
+
+.background-headline p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 30px 0 100px;
+    text-shadow: 1px 1px #222222;
+}
+
+.sub-head h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #3dff00;
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+
+.logos-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    padding: 15px 10px 30px 10px;
+}
+
+.compatible {
+    width: 33.33%;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.daw {
+    width: 33.33%;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.canvas {
+    width: 30.33%;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #c8ff00;
+    padding: 10px 0;
+}
+
+.logos-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.15;
+    padding: 0 30px;
+}
+
+.bottom-logo {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    display: block;
+    margin: auto;
+}
+
+.testimony-container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px 100px;
+    flex-basis: auto;
+    margin: 0 auto;
+}
+
+.img-left {
+    width: 40%;
+    align-self: flex-start;
+    flex-basis: auto;
+    padding: .75rem;
+}
+
+.img-left img {
+    max-width: 200px;
+}
+
+.right-text {
+    width: 60%;
+    align-self: flex-end;
+    text-align: center;
+    margin: auto;
+    border: 4px solid #3dff00;
+    flex-basis: auto;
+    padding: 0 0px 15px;
+}
+
+.testimony-container h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.testimony-container p {
+    font-family: 'Edu NSW ACT Foundation', cursive, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+.bottom-email {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#email-bottom {
+    padding: 15px 110px;
+    background-color: #3dff00;
+    border: 2px solid;
+    border-color: rgba(11, 59, 58, 1);
+}
+
+#submit {
+    padding: 12px 50px;
+    color: #3dff00;
+}
+
+.bottom-email p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 30px 0 30px;
+    color: #0b3b3a;
+}
+
+
+
+::placeholder {
+    color: #0b3b3a;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #0b3b3a;
+}
+
+::-ms-input-placeholder {
+    color: #0b3b3a;
+}
+
+.faq {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #0b3b3a;
+    font-size: 70px;
+    padding-bottom: 40px;
+}
+
+.accordion {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.accordion-item {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b3b3a;
+    color: #ffffff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.accordion-item-header {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 2rem;
+}
+
+.accordion-item-header.active::after {
+    content: "\2212";
+}
+
+.accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, #3dff00, #3dff) 1;
+}
+
+.accordion h3 {
+    padding-left: 1.5rem;
+}
+
+.accordion p,
+.accordion li {
+    padding-left: 1.5rem;
+}
+
+.its-great {
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+.accordion-item-body-content ul li {
+    list-style-type: none;
+}
+
+.accordion-item-body-content a {
+    color: #ffffff;
+}
+
+.footer {
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    padding: 3rem;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid #0b3b3a;
+}
+
+.footer-legal {
+    width: 65%;
+    align-self: center;
+    padding: 0 1rem;
+}
+
+.footer-legal a {
+    color: #0b3b3a;
+    padding: 0 2rem;
+}
+
+.footer-logos {
+    width: 35%;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.footer-logos img {
+    max-width: 40px;
+    max-height: 40px;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    header img {
+        margin-left: 10%;
+    }
+
+    nav ul li {
+        padding: 0 10px;
+    }
+
+    .footer-legal {
+        width: 70%;
+    }
+
+    .footer-logos {
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 775px) {
+    header img {
+        margin-left: 0;
+    }
+
+    nav {
+        padding-right: 10px;
+    }
+
+    nav ul li {
+        padding: 0 20px;
+    }
+
+    nav a {
+        padding: 8px 30px;
+        font-size: 14px;
+    }
+
+    .logos-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
+        text-align: center;
+        padding: 15px 10px 30px 10px;
+    }
+
+    .compatible,
+    .daw {
+        width: 50%;
+        padding-bottom: 2rem;
+    }
+
+    .canvas {
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    .alien-logo {
+        max-width: 150px;
+    }
+
+    .testimony-container {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 20px;
+        flex-basis: auto;
+        flex-grow: 1;
+
+    }
+
+    .img-left {
+        width: 40%;
+        align-self: center;
+        flex-grow: 1;
+        margin: auto;
+    }
+
+    .img-left img {
+        align-self: flex-start;
+        padding: 2rem 0;
+    }
+
+    .right-text {
+        width: 60%;
+        align-self: flex-end;
+        text-align: left;
+        margin: auto;
+        border: 4px solid #3dff00;
+        padding: 0 10px 0;
+        flex-grow: 1;
+    }
+
+    .testimony-container h5 {
+        font-size: 24px;
+        padding: .5rem 0;
+    }
+
+    .testimony-container p {
+        font-size: 18px;
+        padding: .5rem 0;
+    }
+
+    .footer {
+        flex-flow: row wrap;
+        text-align: center;
+        padding: 0;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    .footer-legal {
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .footer-legal a {
+        padding: 0 1rem;
+    }
+
+    .footer-logos {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+    .testimony-container {
+            width: 100%;
+            max-width: 100%;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 20px;
+            flex-basis: auto;
+        }
+    
+        .img-left {
+            width: 100%;
+            align-self: center;
+            flex-grow: 1;
+            margin: auto;
+        }
+    
+        .img-left img {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .right-text {
+        width: 100%;
+        align-self: flex-start;
+        text-align: left;
+        margin: auto;
+        border: 4px solid #3dff00;
+        flex-grow: 1;
+    }
+
+    .testimony-container h5 {
+        font-size: 22px;
+        padding: .5rem 0;
+    }
+
+    .testimony-container p {
+        font-size: 16px;
+        padding: .5rem 0;
+    }
+}
+@media screen and (max-width: 480px) {
+
+    header {
+        padding: 12px 0;
+    }
+
+    header img {
+        display: none;
+    }
+
+    nav {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    nav a {
+        padding: 5px 25px;
+        font-size: 12px;
+    }
+
+    .background-headline h1 {
+        font-size: 40px;
+    }
+
+    .background-headline h3 {
+        font-size: 50px;
+    }
+
+    #email {
+        padding: 12px 50px;
+        margin-bottom: 10px;
+    }
+
+    .submit {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .background-headline p {
+        font-size: 14px;
+        color: #3dff00;
+    }
+
+    .sub-head h1 {
+        font-size: 20px;
+        padding: 50px 0 50px 0;
+    }
+
+    .logos-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: column nowrap;
+        text-align: center;
+        padding: 15px 10px 30px 10px;
+    }
+
+    .compatible,
+    .daw,
+    .canvas {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .testimony-container {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 20px;
+        flex-basis: auto;
+    }
+
+    .img-left {
+        width: 100%;
+        align-self: center;
+        flex-grow: 1;
+        margin: auto;
+    }
+
+    .img-left img {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .right-text {
+        width: 100%;
+        align-self: flex-start;
+        text-align: left;
+        margin: auto;
+        border: 4px solid #3dff00;
+        padding: 0 10px 0;
+        flex-grow: 1;
+    }
+
+    .testimony-container h5 {
+        font-size: 22px;
+        padding: .5rem 0;
+    }
+
+    .testimony-container p {
+        font-size: 16px;
+        padding: .5rem 0;
+    }
+
+    #email-bottom {
+        padding: 15px 55px;
+        background-color: #3dff00;
+        border: 2px solid;
+        border-color: rgba(11, 59, 58, 1);
+        margin-bottom: 10px;
+    }
+
+    .bottom-email p {
+        font-size: 14px;
+    }
+
+    .footer {
+        flex-flow: row wrap;
+        text-align: center;
+        padding: 0;
+        justify-content: space-around;
+        font-size: 12px;
+    }
+
+    .footer-legal,
+    .footer-legal a {
+        padding: 1rem;
+    }
+}
